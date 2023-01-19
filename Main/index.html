@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/jass.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <header class="header d-flex justify-content-center">
+        <h1>Weather Dashboard</h1>
+    </header>
+
+    <div class="container w-100 m-0 p-0">
+        <div class="row m-0 p-0">
+            <div class="search col-md-4">
+                <h2>Search for a City:</h2>
+                <input type="text" placeholder="Toronto">
+                <button>Search</button>
+                <hr style="border: 1px solid darkblue;">
+                <ul class="no-bullet">
+                    <li> <button>Austin</button></li>
+                    <li><button>Chicago</button></li>
+                </ul>
+            </div>
+            <div class="dashboard col-md-8">
+                <div class="today row">
+                    <h3 id="today-title">
+                        <span id="city">Toronto</span> 
+                        <span id="date">(1/19/2023)</span>
+                        <span id="icon">🌨️</span>
+                    </h3> 
+                    
+                    <h4 id="temperature">Temp: 35°C</h4>
+                    <h4 id="wind">17 KPH</h4>
+                    <h4 id="humidity">46%</h4>
+                    <h4 id="uv-index">0.47</h4>
+
+                </div>
+                <div class="future row">
+                    <div class="col">
+                        <span id="date">(1/19/2023)</span> <br>
+                        <span id="date">🌨️</span>
+                        <h4 id="temperature">Temp: 35°C</h4>
+                        <h4 id="wind">17 KPH</h4>
+                        <h4 id="humidity">46%</h4>
+                        <h4 id="uv-index">0.47</h4>
+                    </div>
+                    <div class="col">
+                        <span id="date">(1/19/2023)</span> <br>
+                        <span id="date">🌨️</span>
+                        <h4 id="temperature">Temp: 35°C</h4>
+                        <h4 id="wind">17 KPH</h4>
+                        <h4 id="humidity">46%</h4>
+                        <h4 id="uv-index">0.47</h4>
+                    </div>
+                    <div class="col">
+                        <span id="date">(1/19/2023)</span> <br>
+                        <span id="date">🌨️</span>
+                        <h4 id="temperature">Temp: 35°C</h4>
+                        <h4 id="wind">17 KPH</h4>
+                        <h4 id="humidity">46%</h4>
+                        <h4 id="uv-index">0.47</h4>
+                    </div>
+                    <div class="col">
+                        <span id="date">(1/19/2023)</span> <br>
+                        <span id="date">🌨️</span>
+                        <h4 id="temperature">Temp: 35°C</h4>
+                        <h4 id="wind">17 KPH</h4>
+                        <h4 id="humidity">46%</h4>
+                        <h4 id="uv-index">0.47</h4>
+                    </div>
+                    <div class="col">
+                        <span id="date">(1/19/2023)</span> <br>
+                        <span id="date">🌨️</span>
+                        <h4 id="temperature">Temp: 35°C</h4>
+                        <h4 id="wind">17 KPH</h4>
+                        <h4 id="humidity">46%</h4>
+                        <h4 id="uv-index">0.47</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
