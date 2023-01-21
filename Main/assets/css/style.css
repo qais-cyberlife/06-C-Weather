@@ -7,6 +7,10 @@
     --green: #3cf13c;
   }
 
+  .invalid {
+    background-color: yellow;
+  }
+
   .no-bullet{
     list-style-type: none;
     padding: 5px;
@@ -34,7 +38,7 @@
     justify-content: center;
 }
 
-.search > input  {
+#search-form > input  {
     margin: 0.5rem 0rem;
     min-width: 100%;
     min-height: 2rem;
@@ -43,9 +47,9 @@
     text-align: center;
 }
 
-.search > button {
+#search-form > button {
     display: block;
-    margin: 0.5rem auto;
+    margin: 0rem auto;
     min-width: 25%;
     min-height: 2rem;
     border: var(--darkblue) solid 2px ;
@@ -59,7 +63,7 @@
     background-color: var(--red);
 }
 
-.today {
+#today {
     margin: 0.5rem;
     padding: 0.5rem;
     color: var(--light);
@@ -69,12 +73,12 @@
     border: var(--green) solid 2px;
 }
 
-.future {
+#future {
     background-color: var(--green);
     min-height: auto;
 }
 
-.future > .col {
+#future > .col {
     font-size: 1rem;
     background-color: var(--red);
     min-height: auto;

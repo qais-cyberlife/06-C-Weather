@@ -20,31 +20,35 @@
     <div class="container w-100 m-0 p-0">
         <div class="row m-0 p-0">
             <div class="search col-md-4">
-                <h2>Search for a City:</h2>
-                <input type="text" placeholder="Toronto">
-                <button>Search</button>
-                <hr style="border: 1px solid darkblue;">
-                <ul class="no-bullet">
-                    <li> <button>Austin</button></li>
-                    <li><button>Chicago</button></li>
-                </ul>
+                <form id="search-form" class="form w-100">
+                    <h2>Search for a City: </h2>
+                    <input id="city-input" type="text" placeholder="City">
+                    <input id="state-input" type="text" placeholder="State (if applicable)">
+                    <input id="country-input" type="text" placeholder="Country">
+                    <button id="search">Search</button>
+                    <hr style="border: 1px solid darkblue;">
+                    <ul class="no-bullet">
+                        <li> <button>Austin</button></li>
+                        <li><button>Chicago</button></li>
+                    </ul>
+                </form>
             </div>
             <div class="dashboard col-md-8">
-                <div class="today row">
+                <div class="row" id="today">
                     <h3 id="today-title">
-                        <span id="city">Toronto</span> 
+                        <span id="city">Toronto</span>
                         <span id="date">(1/19/2023)</span>
                         <span id="icon">🌨️</span>
-                    </h3> 
-                    
+                    </h3>
+
                     <h4 id="temperature">Temp: 35°C</h4>
                     <h4 id="wind">17 KPH</h4>
                     <h4 id="humidity">46%</h4>
                     <h4 id="uv-index">0.47</h4>
 
                 </div>
-                <div class="future row">
-                    <div class="col">
+                <div class="row" id="future">
+                    <div data-day="" class="col">
                         <span id="date">(1/19/2023)</span> <br>
                         <span id="date">🌨️</span>
                         <h4 id="temperature">Temp: 35°C</h4>
@@ -89,6 +93,8 @@
         </div>
     </div>
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>
