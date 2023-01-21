@@ -1,29 +1,27 @@
 {
-    "api" : "https://api.openweathermap.org/data/2.5/find?q=London,on,ca&units=metric&appid=32794bb53ba95f39cf7a5a2d11c7be39",
-
     "message": "accurate",
     "cod": "200",
     "count": 1,
     "list": [
         {
-            "id": 6058560,
-            "name": "London",
+            "id": 6075357,
+            "name": "Mississauga",
             "coord": {
-                "lat": 42.9834,
-                "lon": -81.233
+                "lat": 43.5903,
+                "lon": -79.6457
             },
             "main": {
-                "temp": -1.02,
-                "feels_like": -4.84,
-                "temp_min": -1.12,
-                "temp_max": -0.72,
-                "pressure": 1007,
-                "humidity": 79
+                "temp": -0.64,
+                "feels_like": -6.09,
+                "temp_min": -1.59,
+                "temp_max": 0.56,
+                "pressure": 1017,
+                "humidity": 78
             },
-            "dt": 1674263346,
+            "dt": 1674267325,
             "wind": {
-                "speed": 3.13,
-                "deg": 288
+                "speed": 5.66,
+                "deg": 290
             },
             "sys": {
                 "country": "CA"
